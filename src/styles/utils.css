@@ -1,0 +1,59 @@
+.text-black{
+    color: var(--black);
+}
+
+.text-deepshadow{
+    color: var(--deepshadow);
+}
+
+.text-shadow{
+    color: var(--shadow);
+}
+
+.text-base{
+    color: var(--base);
+}
+
+.text-light{
+    color: var(--light);
+}
+
+.text-highlight{
+    color: var(--highlight);
+}
+
+.text-white{
+    color: var(--white);
+}
+
+.text-w100{
+    font-weight: 100;
+}
+
+.text-w200{
+    font-weight: 200;
+}
+
+.text-w300{
+    font-weight: 300;
+}
+
+.text-w400{
+    font-weight: 400;
+}
+
+.text-w500{
+    font-weight: 500;
+}
+
+.text-w600{
+    font-weight: 600;
+}
+
+.text-w700{
+    font-weight: 700;
+}
+
+.text-w800{
+    font-weight: 800;
+}

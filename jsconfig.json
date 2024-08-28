@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@home/*": [
+        "./src/pages/home/*"
+      ],
+      "@about/*": [
+        "./src/pages/about/*"
+      ],
+      "@experience/*": [
+        "./src/pages/experience/*"
+      ],
+      "@contact/*": [
+        "./src/pages/contact/*"
+      ]
+    }
+  }
+}

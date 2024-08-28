@@ -1,0 +1,72 @@
+.experience-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 100%;
+    border: 2px solid var(--shadow);
+    border-radius: 1.5rem;
+    font-size: 1rem;
+}
+
+.experience-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    height: 100%;
+    gap: 1rem;
+}
+
+.experience-card header{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.experience-card header h1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.iconicon{
+    align-self: center;
+    font-size: 3rem;
+}     
+
+.experience-card header span{
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.location {
+    font-style: italic;
+}
+
+.experience-card p{
+    font-style: italic;
+}
+
+.experience-card footer{
+    display: flex;
+}
+
+.experience-card footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.experience-card img{
+    height: 40%;
+    object-fit: cover;
+}
+
+div .education-card{
+    justify-content: center;
+}

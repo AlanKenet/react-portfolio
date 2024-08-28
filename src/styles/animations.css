@@ -1,0 +1,7 @@
+.hover-growth svg{
+    transition: transform 0.15s;
+}
+
+.hover-growth:hover svg{
+    transform: scale(1.75);
+}  

@@ -1,0 +1,33 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.about-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-main{
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-description{
+    align-self: center;
+    font-size: 1.125rem;
+    padding: 2rem;
+}
+
+.main-description{
+    font-size: 2.25rem;
+    font-weight: initial;
+    font-style: italic;
+}

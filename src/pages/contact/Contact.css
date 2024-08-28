@@ -1,0 +1,14 @@
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100dvh - 4rem);
+    gap: 1.5rem;
+    padding: 4rem;
+}
+
+.contact-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
