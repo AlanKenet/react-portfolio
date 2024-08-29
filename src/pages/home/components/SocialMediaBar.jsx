@@ -8,7 +8,7 @@ export function SocialMediaBar () {
       {
         SOCIALMEDIA_ELEMENTS.map(({ id, url, icon }) => (
           <SocialMediaBarElement
-            className='hover-growth'
+            className='hover-upscale'
             key={id}
             url={url}
             icon={icon}
