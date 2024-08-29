@@ -3,28 +3,17 @@ import { useState } from 'react'
 import { DynamicTitle } from '@/components/DynamicTitle'
 
 import { ExperienceCard } from '@experience/components/ExperienceCard'
-
-import { ALL_EXPERIENCE } from '@/constants/experience'
-import { IMAGES } from '@/constants/images'
-
-import { getElements, getUniqueValuesFrom } from '@/logic/colections'
+import { getCategories, updateExperience } from '@experience/logic/updateExperience'
 
 import '@experience/styles/Experience.css'
 
-const titles = getUniqueValuesFrom(ALL_EXPERIENCE, 'category')
-
-const updateExperience = (category, initIndex = 0) => {
-  let newExperience = ALL_EXPERIENCE.filter(experience => experience.category === category.toLowerCase())
-
-  if (newExperience.length > 3) newExperience = getElements(newExperience, 3, initIndex)
-
-  return newExperience
-}
+const categories = getCategories()
+const titles = categories.map(category => category.charAt(0).toUpperCase() + category.slice(1))
 
 export function Experience () {
-  const [experience, setExperience] = useState(updateExperience(titles[1]))
+  const [experience, setExperience] = useState(updateExperience(categories[1]))
 
-  const handleHover = (category) => {
+  const handleClick = (category) => {
     setExperience(
       updateExperience(category)
     )
@@ -33,25 +22,14 @@ export function Experience () {
   return (
     <>
       <header className='experience-header'>
-        <DynamicTitle onMouseEnter={handleHover} titles={titles} />
+        <DynamicTitle onClick={handleClick} titles={titles} />
       </header>
       <main className='experience-main'>
         {
-          experience.map((experience) => (
+          experience.map((exp) => (
             <ExperienceCard
-              key={experience.id}
-              category={experience.category}
-              title={experience.title}
-              organization={experience.organization}
-              city={experience.city}
-              state={experience.state}
-              country={experience.country}
-              initDate={experience.initDate}
-              endDate={experience.endDate}
-              description={experience.description}
-              keySkills={experience.keySkills}
-              icon={experience.icon}
-              image={IMAGES.find(image => image.name === experience.image)}
+              key={exp.id}
+              {...exp}
             />
           ))
         }

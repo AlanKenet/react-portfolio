@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
-export function DynamicTitle ({ onMouseEnter, titles }) {
+export function DynamicTitle ({ onClick, titles }) {
   const [currentTitles, setTitles] = useState(titles)
 
-  const handleHover = (index) => {
+  const handleClick = (index) => {
     if (index !== 1) {
       const newTitles = [...currentTitles]
       newTitles.splice(1, 0, ...newTitles.splice(index, 1))
       setTitles(newTitles)
-      onMouseEnter(newTitles[1])
+      onClick(newTitles[1].toLowerCase())
     }
   }
 
@@ -17,7 +17,7 @@ export function DynamicTitle ({ onMouseEnter, titles }) {
       {
     currentTitles.map((title, index) => (
       <div key={index} className={`title-${index}`}>
-        <span onMouseEnter={() => handleHover(index)}>{title}</span>
+        <span onClick={() => handleClick(index)}>{title}</span>
       </div>
     ))
         }
