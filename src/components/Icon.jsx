@@ -1,9 +1,7 @@
 import { ICONS } from '@/constants/icons'
 
-export function Icon ({ className, size, iconID }) {
+export function Icon ({ className, size = '2rem', iconID }) {
   const iconProps = ICONS.find(icon => icon.id === iconID)
-
-  const sizeIcon = size?.toString() || '2rem'
 
   return (
     <div className={className}>
@@ -11,8 +9,8 @@ export function Icon ({ className, size, iconID }) {
         role='img'
         aria-hidden='true'
         fill='currentColor'
-        height={sizeIcon}
-        width={sizeIcon}
+        height={size}
+        width={size}
         {...iconProps.svgAttributes}
       >
         {
