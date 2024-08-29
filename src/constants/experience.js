@@ -118,7 +118,7 @@ export const ALL_EXPERIENCE = [
       'Arch Linux',
       'Automatizacion'
     ],
-    image: 'simulador de robots'
+    image: 'img-sdr-01'
   },
   {
     id: 'p-sdr-22-01',
@@ -133,6 +133,6 @@ export const ALL_EXPERIENCE = [
       'MatPlotLib',
       'Ingenieria'
     ],
-    image: 'simulador de robots'
+    image: 'img-sdr-01'
   }
 ]

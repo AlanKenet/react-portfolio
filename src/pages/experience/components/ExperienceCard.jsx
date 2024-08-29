@@ -1,4 +1,5 @@
 import { Icon } from '@/components/Icon'
+import { Image } from '@/components/Image'
 
 import '@experience/styles/ExperienceCard.css'
 
@@ -8,7 +9,7 @@ export function ExperienceCard ({ category, title, organization, city, state, co
   return (
     <article className='experience-card'>
       {
-        image && <img src={image.path} />
+        image && <Image imageID={image} />
       }
       <div className={`${category}-card`}>
         <header>
