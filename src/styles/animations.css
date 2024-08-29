@@ -1,7 +1,8 @@
-.hover-growth svg{
-    transition: transform 0.15s;
+.hover-upscale svg{
+    transition: transform 0.1s ease-in;
 }
 
-.hover-growth:hover svg{
-    transform: scale(1.75);
-}  
+.hover-upscale:hover svg{
+    transform: scale(2);
+    transition: transform 0.05s ease-out;
+}   
