@@ -1,6 +1,7 @@
 :root{
+  --app-min-width: 769px;
+  --app-max-width: 55.626rem;
   --border-radius-L1: 0.75rem;
-  --viewer-widht: 55.625rem;
 }
 
 .app{
@@ -8,23 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.content-viewer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: var(--viewer-widht);
-  color: inherit;
-  overflow: hidden;
-}
-
-.content-section{
-  width: 100%;
-  min-height: calc(100dvh - var(--nav-height));
-  border-radius: 1.5rem;
-  background-color: var(--deepshadow);
+  height: 100dvh;
 }
 
 .page-title{
