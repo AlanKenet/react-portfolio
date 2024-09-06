@@ -3,8 +3,13 @@ import { ICONS } from '@/constants/icons'
 export function Icon ({ className, size = '2rem', iconID }) {
   const iconProps = ICONS.find(icon => icon.id === iconID)
 
+  const dimensions = {
+    height: size,
+    width: size
+  }
+
   return (
-    <div className={className}>
+    <div className={className} style={dimensions}>
       <svg
         role='img'
         aria-hidden='true'
