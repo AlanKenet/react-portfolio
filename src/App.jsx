@@ -1,13 +1,13 @@
-import { Sidebar } from '@/components/sidebar/Sidebar'
+import { Navbar } from '@/components/bar/Navbar'
 import { ContentViewer } from '@/components/contentViewer/ContentViewer'
 
 import '@/styles/App.css'
 
 export default function App () {
   return (
-    <>
-      <Sidebar />
+    <div className='app'>
+      <Navbar />
       <ContentViewer />
-    </>
+    </div>
   )
 }
