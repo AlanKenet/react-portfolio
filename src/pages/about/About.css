@@ -1,8 +1,10 @@
 .about-section{
+    background-color: rgb(41, 4, 30);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2rem;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .about-header{

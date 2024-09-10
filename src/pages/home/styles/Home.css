@@ -1,13 +1,14 @@
+.home-section{
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    background-color: rgb(32, 75, 4);
+}
+
 .home-titles{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.25rem;
     font-weight: 700;
     color: var(--base);
-}
-
-.home-section{
-    display: grid;
-    grid-template-rows: 1fr auto 1fr;
 }
 
 .home-header{

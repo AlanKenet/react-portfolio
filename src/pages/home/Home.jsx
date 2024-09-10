@@ -4,7 +4,7 @@ import '@home/styles/Home.css'
 
 export function Home () {
   return (
-    <>
+    <section className='home-section content'>
       <header className='home-header'>
         <h1 className='home-titles'>
           <span className='text-white'>Alan Kenet</span>
@@ -16,6 +16,6 @@ export function Home () {
         <button className='home-button'>Contact me</button>
         <SocialMediaBar />
       </footer>
-    </>
+    </section>
   )
 }

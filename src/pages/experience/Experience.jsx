@@ -20,7 +20,7 @@ export function Experience () {
   }
 
   return (
-    <>
+    <section className='experience-section content'>
       <header className='experience-header'>
         <DynamicTitle onClick={handleClick} titles={titles} />
       </header>
@@ -34,6 +34,6 @@ export function Experience () {
           ))
         }
       </main>
-    </>
+    </section>
   )
 }
