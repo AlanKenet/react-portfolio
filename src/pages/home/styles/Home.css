@@ -1,7 +1,6 @@
 .home-section{
     display: grid;
     grid-template-rows: 1fr auto 1fr;
-    background-color: rgb(32, 75, 4);
 }
 
 .home-titles{

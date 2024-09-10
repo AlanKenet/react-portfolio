@@ -9,7 +9,6 @@
 }
 
 .content-viewer{
-  background-color: rgb(48, 31, 0);
   width: 100%;
   min-width: var(--viewer-min-width);
   max-width: var(--viewer-max-width);
@@ -36,4 +35,6 @@
 .content{
   width: 100%;
   min-height: var(--content-min-height);
+  border-radius: 0.75rem;
+  background-color: var(--deepshadow);
 }
