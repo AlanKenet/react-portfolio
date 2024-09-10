@@ -10,12 +10,15 @@
   --highlight: #d6def5;
   --white: #f7f8fd;
 
-  background-color: var(--black);
+  background-color: #555555;
 }
 
 html{
   font-size: 16px;/* 1rem = 16px */
   scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-total-height);
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
 }
 
 *{

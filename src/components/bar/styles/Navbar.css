@@ -1,11 +1,14 @@
 :root{
   --nav-height: 4rem;
   --nav-margin-top: 2rem;
+  --nav-total-height: calc(var(--nav-height) + var(--nav-margin-top));
   --nav-max-width: var(--app-max-width);
   --nav-min-width: var(--app-min-width);
 }
 
 .navbar{
+  position: fixed;
+  z-index: 1001;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -52,6 +55,7 @@
   width: 100%;
   gap: 1.5rem;
   list-style: none;
+  font-weight: 700;
 }
 
 .navbar-list li{
