@@ -1,7 +1,7 @@
-export function ContentSection ({ children, classes }) {
+export function ContentSection ({ children, section }) {
   return (
-    <section className={`content-section ${classes}`}>
+    <div id={section} className='content-section'>
       {children}
-    </section>
+    </div>
   )
 }
