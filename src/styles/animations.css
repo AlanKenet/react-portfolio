@@ -5,4 +5,13 @@
 .hover-upscale:hover svg{
     transform: scale(2);
     transition: transform 0.05s ease-out;
-}   
+}
+
+@keyframes opacityTransition{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
