@@ -6,8 +6,8 @@ export function BarRepertory ({ className }) {
   return (
     <ul className={className}>
       {
-          BAR_ELEMENTS.map(({ id, title, icon }) => (
-            <BarPiece key={id} icon={icon}>
+          BAR_ELEMENTS.map(({ id, title }) => (
+            <BarPiece key={id}>
               {title}
             </BarPiece>
           ))

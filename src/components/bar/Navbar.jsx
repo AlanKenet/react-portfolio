@@ -6,10 +6,12 @@ import './styles/Navbar.css'
 
 export function Navbar () {
   return (
-    <nav className='navbar'>
-      <BarTitle className='navbar-title' />
-      <BarRepertory className='navbar-list' />
-      <BarConfigs className='navbar-configs' />
-    </nav>
+    <header className='header'>
+      <nav className='navbar'>
+        <BarTitle className='navbar-title' />
+        <BarRepertory className='navbar-list' />
+        <BarConfigs className='navbar-configs' />
+      </nav>
+    </header>
   )
 }

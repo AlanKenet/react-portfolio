@@ -4,7 +4,7 @@ export function BarTitle ({ className }) {
       <a href='#home'>
         <h1>
           Alan Kenet
-          <span className='text-base'>.</span>
+          <span className='text-neutro'>.</span>
         </h1>
       </a>
     </header>
