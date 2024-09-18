@@ -6,11 +6,18 @@ export function Home () {
   return (
     <section className='home-section content'>
       <header className='home-header'>
-        <h1 className='home-titles'>
-          <span className='text-white'>Alan Kenet</span>
-          <span className='text-base'>.</span>
-          <br /><span className='text-light'>Front End Dev.</span>
-        </h1>
+        <div className='home-title-wrapper'>
+          <h1 className='home-title'>
+            <span className='text-black'>Alan Kenet</span>
+            <span className='text-neutro'>.</span>
+          </h1>
+          <h2 className='home-subtitle'>
+            <span>Front End Dev</span>
+          </h2>
+        </div>
+        <p className='home-description'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione natus perspiciatis exercitationem magnam aliquam quo numquam fugiat sint inventore, quos dolorum tempora animi eaque velit saepe ut, sapiente iste eum.
+        </p>
       </header>
       <footer className='home-footer'>
         <button className='home-button'>Contact me</button>
