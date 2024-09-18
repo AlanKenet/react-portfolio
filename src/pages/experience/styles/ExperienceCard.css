@@ -9,7 +9,7 @@
     font-size: 1rem;
 }
 
-.experience-card div{
+.experience-card div:not(.iconicon){
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,7 +34,6 @@
 
 .iconicon{
     align-self: center;
-    font-size: 3rem;
 }     
 
 .experience-card header span{
@@ -67,6 +66,6 @@
     object-fit: cover;
 }
 
-div .education-card{
+.experience-card div:not(.iconicon):has(.education-card){
     justify-content: center;
 }
