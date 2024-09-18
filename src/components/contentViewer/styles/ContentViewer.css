@@ -1,32 +1,25 @@
 :root{
-  --viewer-max-width: var(--app-max-width);
-  --viewer-min-width: var(--app-min-width);
-  --viewer-min-height: 100dvh;
-  --section-min-height: calc( var(--viewer-min-height) - var(--nav-total-height) );
-  --section-padding: var(--nav-margin-top);
-  --content-min-height: calc( var(--section-min-height) - calc(var(--section-padding) * 2) );
+  --viewer-min-height: calc( 100dvh - var(--nav-height) );
 
 }
 
 .content-viewer{
   width: 100%;
-  min-width: var(--viewer-min-width);
-  max-width: var(--viewer-max-width);
+  min-width: var(--app-min-width);
+  max-width: var(--app-max-width);
   height: 100%;
   min-height: var(--viewer-min-height);
-  margin-top: var(--nav-total-height);
+  margin-top: var(--nav-height);
   display: flex;
   flex-direction: column;
-  gap: var(--nav-total-height);
+  /* gap: var(--nav-height); */
 }
 
 .content-section{
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
   width: 100%;
   height: 100%;
-  min-height: var(--section-min-height);
-  padding: var(--section-padding) 0;
+  min-height: var(--viewer-min-height);
+  padding: 0 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +27,4 @@
 
 .content{
   width: 100%;
-  min-height: var(--content-min-height);
-  border-radius: 0.75rem;
-  background-color: var(--deepshadow);
 }
