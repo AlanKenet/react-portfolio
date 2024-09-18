@@ -1,20 +1,25 @@
 :root{
-  --app-min-width: 769px;
-  --app-max-width: 55.626rem;
+  --desktop-width: 720px;
+  --tablet-width: 640px;
+  --mobile-width: 520px;
+
+  --app-min-width: calc( var(--tablet-width) + 1px );
+  --app-max-width: var(--desktop-width);
+
   --border-radius-L1: 0.75rem;
 }
 
 .app{
+  min-height: 100dvh;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100dvh;
 }
 
 .page-title{
   font-size: 2rem;
-  color: var(--white);
+  color: var(--black);
 }
 
 .my-name{
@@ -30,8 +35,8 @@
   padding: 0.125rem 0.625rem;
   border-radius: 10rem;
   border: none;
-  color: var(--highlight);
-  background-color: var(--base);
+  color: var(--black);
+  background-color: var(--highlight-neutro);
   font-family: inherit;
   font-size: 0.75rem;
 }

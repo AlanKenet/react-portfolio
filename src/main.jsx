@@ -5,6 +5,7 @@ import App from '@/App'
 
 import '@/styles/index.css'
 import '@/styles/utils.css'
+import '@/styles/animations.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -1,24 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
-
 :root{
-  --black: #020408;
+  /* --black: #020408;
   --deepshadow: #0a1229;
   --shadow: #182c62;
   --base: #3359cc;
   --light: #99ade6;
   --highlight: #d6def5;
-  --white: #f7f8fd;
+  --white: #f7f8fd; */
 
-  background-color: #555555;
+  /* --white: #F5F5F5;
+  --light: #FAF3E0;
+  --neutro: #F4A460;
+  --shadow: #4A4A4A;
+  --black: #333333;
+  --color-1: #FF5722;
+  --color-2: #FFAB40;
+  --color-3: #2196F3;
+  --color-4: #90A4AE; */
+
+  --black: #1A1A1A;
+  --shadow: #4D4D4D;
+  --neutro: #8C8C8C;
+  --light: #C2C2C2;
+  --white: #E6E6E6;
+
+
+  background-color: var(--white);
 }
 
 html{
   font-size: 16px;/* 1rem = 16px */
   scroll-behavior: smooth;
-  scroll-padding-top: var(--nav-total-height);
-  scroll-snap-type: y mandatory;
-  scrollbar-width: none;
+  scroll-padding-top: var(--nav-height);
 }
 
 *{
@@ -30,7 +42,7 @@ html{
 
 body{
   font-family: 'Karla', sans-serif;
-  color: var(--light);
+  color: var(--black);
 }
 
 a{
