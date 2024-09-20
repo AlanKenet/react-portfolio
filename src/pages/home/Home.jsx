@@ -8,19 +8,19 @@ export function Home () {
       <header className='home-header'>
         <div className='home-title-wrapper'>
           <h1 className='home-title'>
-            <span className='text-black'>Alan Kenet</span>
-            <span className='text-neutro'>.</span>
+            Alan Kenet<span className='text-neutro'>.</span>
           </h1>
           <h2 className='home-subtitle'>
-            <span>Front End Dev</span>
+            Front End Dev
           </h2>
         </div>
         <p className='home-description'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione natus perspiciatis exercitationem magnam aliquam quo numquam fugiat sint inventore, quos dolorum tempora animi eaque velit saepe ut, sapiente iste eum.
+          I develop web solutions focused on <span class='text-shadow text-w600'>design</span> and <span class='text-shadow text-w600'>user experience</span>. I use technologies like <span class='text-shadow text-w600'>React</span> to deliver <span class='text-shadow text-w600'>interactive</span> and <span class='text-shadow text-w600'>intuitive</span> interfaces.
+          {/* Desarrollo soluciones web enfocadas en el <span class='text-shadow text-w600'>diseño</span> y la <span class='text-shadow text-w600'>experiencia del usuario</span>. Utilizo tecnologías como <span class='text-shadow text-w600'>React</span> para ofrecer interfaces <span class='text-shadow text-w600'>interactivas</span> e <span class='text-shadow text-w600'>intuitivas</span>. */}
         </p>
       </header>
       <footer className='home-footer'>
-        <button className='home-button'>Contact me</button>
+        <button className='home-button'>Let's Talk</button>
         <SocialMediaBar />
       </footer>
     </section>

@@ -22,7 +22,6 @@
 
 .home-title{
     display: flex;
-    justify-content: center;
     align-items: baseline;
     font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
@@ -30,7 +29,7 @@
     line-height: 110%;
 }
 
-.home-title span + span {
+.home-title span {
     font-size: 4.5rem;
 }
 
@@ -44,9 +43,11 @@
 
 .home-description{
     width: 100%;
+    font-size: 1.25rem;
     text-align: center;
-    font-weight: 200;
+    font-weight: 500;
     line-height: 130%;
+    color: var(--neutro);
 }
 
 .home-footer{
