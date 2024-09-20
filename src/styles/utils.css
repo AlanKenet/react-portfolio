@@ -18,19 +18,19 @@
     color: var(--white);
 }
 
-.text-highlight-1{
+.text-hl1{
     color: var(--color-1);
 }
 
-.text-highlight-2{
+.text-hl2{
     color: var(--color-2);
 }
 
-.text-highlight-3{
+.text-hl3{
     color: var(--color-3);
 }
 
-.text-highlight-4{
+.text-hl4{
     color: var(--color-4);
 }
 
@@ -64,4 +64,8 @@
 
 .text-w800{
     font-weight: 800;
+}
+
+.text-italic{
+    font-style: italic;
 }
