@@ -15,7 +15,7 @@ export function Home () {
           </h2>
         </div>
         <p className='home-description'>
-          I develop web solutions focused on <span className='text-shadow text-w600'>design</span> and <span className='text-shadow text-w600'>user experience</span>. I use technologies like <span className='text-shadow text-w600'>React</span> to deliver <span className='text-shadow text-w600'>interactive</span> and <span className='text-shadow text-w600'>intuitive</span> interfaces.
+          I develop web solutions focused on <span className='text-shadow text-w600'>design</span> and <span className='text-shadow text-w600'>user experience</span>. I use technologies like <span className='text-shadow text-w600 text-italic'>React</span> to deliver <span className='text-shadow text-w600'>interactive</span> and <span className='text-shadow text-w600'>intuitive</span> interfaces.
           {/* Desarrollo soluciones web enfocadas en el <span class='text-shadow text-w600'>diseño</span> y la <span class='text-shadow text-w600'>experiencia del usuario</span>. Utilizo tecnologías como <span class='text-shadow text-w600'>React</span> para ofrecer interfaces <span class='text-shadow text-w600'>interactivas</span> e <span class='text-shadow text-w600'>intuitivas</span>. */}
         </p>
       </header>
