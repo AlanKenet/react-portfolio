@@ -17,20 +17,6 @@
   align-items: center;
 }
 
-.page-title{
-  font-size: 2rem;
-  color: var(--black);
-}
-
-.my-name{
-  font-size: 3.5rem;
-}
-
-.alankenet{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-}
-
 .simple-capsule{
   padding: 0.125rem 0.625rem;
   border-radius: 10rem;
