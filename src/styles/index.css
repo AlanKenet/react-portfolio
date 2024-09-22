@@ -23,11 +23,11 @@
   --light: #C2C2C2;
   --white: #E6E6E6; */
 
-  --black: #1A1A1A;
-  --shadow: #4D4D4D;
-  --neutro: #8C8C8C;
-  --light: #C2C2C2;
-  --white: #E6E6E6;
+  --black: #0A0A0A;
+  --shadow: #262626;
+  --neutro: #666666;
+  --light: #BFBFBF;
+  --white: #F5F5F5;
 
 
   background-color: var(--white);
