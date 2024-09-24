@@ -23,11 +23,13 @@
   --light: #C2C2C2;
   --white: #E6E6E6; */
 
+  --black-pure: black;
   --black: #0A0A0A;
-  --shadow: #262626;
+  --shadow: #242424;
   --neutro: #666666;
-  --light: #BFBFBF;
+  --light: #DBDBDB;
   --white: #F5F5F5;
+  --white-pure: white;
 
 
   background-color: var(--white);
@@ -48,6 +50,7 @@ html{
 
 body{
   font-family: 'Karla', sans-serif;
+  line-height: 135%;
   color: var(--black);
 }
 
