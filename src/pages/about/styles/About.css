@@ -1,0 +1,50 @@
+.about-section{
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about-title{
+    align-items: baseline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 110%;
+    color: var(--neutro);
+}
+
+.alankenet{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.dot {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.about-subtitle{    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 110%;
+    color: var(--neutro);
+}
+
+.about-description{
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    grid-auto-flow: row dense;
+    gap: 1.5rem;
+}
