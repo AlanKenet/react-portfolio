@@ -1,15 +1,15 @@
-export const getElements = (colection, requiredOf, initFrom = 0) => {
-  const elements = colection.filter((element, index) => (
+export const getElements = (collection, requiredOf, initFrom = 0) => {
+  const elements = collection.filter((element, index) => (
     (index >= initFrom) && (index < (initFrom + requiredOf))
   ))
 
   return elements
 }
 
-export const getUniqueValuesFrom = (colection, from) => {
+export const getUniqueValuesFrom = (collection, from) => {
   const uniqueValues = []
 
-  for (const element of colection) {
+  for (const element of collection) {
     if (!uniqueValues.includes(element[from])) {
       uniqueValues.push(element[from])
     }
