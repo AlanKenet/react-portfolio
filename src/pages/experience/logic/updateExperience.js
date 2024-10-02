@@ -1,4 +1,4 @@
-import { getElements, getUniqueValuesFrom } from '@/logic/colections'
+import { getElements, getUniqueValuesFrom } from '@/logic/collections'
 
 import { ALL_EXPERIENCE } from '@/constants/experience'
 
