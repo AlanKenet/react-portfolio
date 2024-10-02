@@ -1,28 +1,26 @@
 .about-card{
+  width: 100%;
+  height: 100%;
   padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.075), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  line-height: 110%;
+  color: var(--shadow);
 }
 
-.about-card h1{
-  font-size: 1.25rem;
+.small .about-card h1{
+  font-size: 1rem;
   font-weight: 500;
 }
 
-.small{
-  grid-column: span 1;
-  grid-row: span 1;
+.mid .about-card h1{
+  font-size: 1.125rem;
+  font-weight: 700;
 }
 
-.mid{
-  grid-column: span 2;
-  grid-row: span 1;
-}
-
-.big{
-  grid-column: span 2;
-  grid-row: span 2;
+.big .about-card h1{
+  font-size: 1.5rem;
+  font-weight: 700;
 }

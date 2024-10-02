@@ -10,17 +10,17 @@ export const TIERS = [
   {
     tier: 'a',
     sizesRatio: {
-      big: 0.05,
-      mid: 0.45,
-      small: 0.5
+      big: 0,
+      mid: 1,
+      small: 0
     }
   },
   {
     tier: 'b',
     sizesRatio: {
       big: 0,
-      mid: 0.2,
-      small: 0.8
+      mid: 0,
+      small: 1
     }
   },
   {

@@ -1,12 +1,8 @@
-import { getRandomSize } from '@about/logic/bento'
-
 import '@about/styles/AboutCard.css'
 
-export function AboutCard ({ children, tier }) {
-  const size = getRandomSize(tier)
-
+export function AboutCard ({ children }) {
   return (
-    <article className={`about-card ${size}`}>
+    <article className='about-card'>
       <h1>
         {children}
       </h1>
