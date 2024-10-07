@@ -21,8 +21,8 @@
   padding: 0.125rem 0.625rem;
   border-radius: 10rem;
   border: none;
-  color: var(--black);
-  background-color: var(--highlight-neutro);
+  color: var(--black-pure);
+  background-color: var(--light);
   font-family: inherit;
   font-size: 0.75rem;
 }
