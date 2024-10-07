@@ -1,59 +1,65 @@
 .experience-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: hidden;
-    height: 100%;
-    border: 2px solid var(--shadow);
-    border-radius: 1.5rem;
-    font-size: 1rem;
-}
-
-.experience-card div:not(.iconicon){
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding: 1.5rem;
-    height: 100%;
-    gap: 1rem;
-}
-
-.experience-card header{
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    justify-content: space-between;
+    gap: 1.5rem;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    background-color: var(--white-pure);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.075), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-.experience-card header h1 {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    font-size: 1.25rem;
-    font-weight: 700;
+/* Jobs */
+
+.jobs-card{
+    min-height: calc(225px + 1.5rem);
 }
 
-.iconicon{
-    align-self: center;
-}     
-
-.experience-card header span{
+.jobs-card aside{
+    width: 25%;
     font-size: 0.75rem;
-    font-weight: 300;
+    color: var(--neutro);
 }
 
-.location {
+.jobs-card div{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+.jobs-card header{
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.jobs-card header h1 {
+    line-height: 110%;
+    font-size: 1.125rem;
+    font-weight: 600;
+} 
+
+.jobs-card header span{
+    font-size: 0.75rem;
+    line-height: 135%;
+    color: var(--neutro);
+}
+
+.jobs-card p{
+    font-size: 0.875rem;
     font-style: italic;
+    line-height: 135%;
+    font-weight: 500;
+    color: var(--shadow);
 }
 
-.experience-card p{
-    font-style: italic;
-}
-
-.experience-card footer{
+.jobs-card footer{
+    margin-top: auto;
     display: flex;
 }
 
-.experience-card footer ul{
+.jobs-card footer ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -61,11 +67,69 @@
     list-style: none;
 }
 
-.experience-card img{
-    height: 40%;
-    object-fit: cover;
+/* Projects */
+
+.projects-card{
+    min-height: calc(225px + 1.5rem);
 }
 
-.experience-card div:not(.iconicon):has(.education-card){
+.projects-card aside{
+    width: 35%;
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.projects-card img{
+    max-height: calc(225px - 1.5rem);
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.075), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.projects-card div{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+.projects-card header{
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.projects-card header h1 {
+    line-height: 110%;
+    font-size: 1.125rem;
+    font-weight: 600;
+} 
+
+.projects-card header span{
+    font-size: 0.75rem;
+    line-height: 135%;
+    color: var(--neutro);
+}
+
+.projects-card p{
+    font-size: 0.875rem;
+    font-style: italic;
+    line-height: 135%;
+    font-weight: 500;
+    color: var(--shadow);
+}
+
+.projects-card footer{
+    margin-top: auto;
+    display: flex;
+}
+
+.projects-card footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
 }

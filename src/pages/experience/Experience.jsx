@@ -29,7 +29,7 @@ export function Experience () {
           experience.map((exp) => (
             <ExperienceCard
               key={exp.id}
-              {...exp}
+              props={exp}
             />
           ))
         }
