@@ -13,13 +13,13 @@ export function DynamicTitle ({ onClick, titles }) {
   }
 
   return (
-    <h1 className='page-title'>
+    <h1>
       {
-    currentTitles.map((title, index) => (
-      <div key={index} className={`title-${index}`}>
-        <span onClick={() => handleClick(index)}>{title}</span>
-      </div>
-    ))
+      currentTitles.map((title, index) => (
+        <div key={index} className={`title-${index}`}>
+          <span onClick={() => handleClick(index)}>{title}</span>
+        </div>
+      ))
         }
     </h1>
   )
