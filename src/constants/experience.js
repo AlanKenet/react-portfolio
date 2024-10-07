@@ -59,54 +59,6 @@ export const ALL_EXPERIENCE = [
     icon: 'icon-ship-fill'
   },
   {
-    id: 'e-im-1722-01',
-    category: 'education',
-    title: 'Ingenieria Mecatronica',
-    organization: 'Universidad Politecnica de Sinaloa',
-    city: 'Mazatlan',
-    state: 'Sinaloa',
-    country: 'Mexico',
-    initDate: '2017',
-    endDate: '2022',
-    icon: 'icon-graduationcap-fill'
-  },
-  {
-    id: 'e-np-1919-01',
-    category: 'education',
-    title: 'Nivelacion pedagogica',
-    organization: 'Centro de actualizacion del magisterio',
-    city: 'Mazatlan',
-    state: 'Sinaloa',
-    country: 'Mexico',
-    initDate: '2019',
-    endDate: '2019',
-    icon: 'icon-ship-fill'
-  },
-  {
-    id: 'e-iesc-1416-01',
-    category: 'education',
-    title: 'Ingeniería en Sistemas Computacionales',
-    organization: 'Instituto Tecnologico de Mazatlan',
-    city: 'Mazatlan',
-    state: 'Sinaloa',
-    country: 'Mexico',
-    initDate: '2014',
-    endDate: '2016',
-    icon: 'icon-ship-fill'
-  },
-  {
-    id: 'e-tei-1114-01',
-    category: 'education',
-    title: 'Tecnico en Informatica',
-    organization: 'Centro de Estudios Tecnológicos Industrial y de Servicios No. 127',
-    city: 'Mazatlan',
-    state: 'Sinaloa',
-    country: 'Mexico',
-    initDate: '2011',
-    endDate: '2014',
-    icon: 'icon-ship-fill'
-  },
-  {
     id: 'p-iadal-23-01',
     category: 'projects',
     title: 'Instalador automatizado de Arch Linux',
