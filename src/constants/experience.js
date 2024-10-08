@@ -1,5 +1,34 @@
 export const ALL_EXPERIENCE = [
   {
+    id: 'p-iadal-23-01',
+    category: 'projects',
+    title: 'Instalador automatizado de Arch Linux',
+    initDate: '2023',
+    description: 'Script en Bash que permite la instalacion automatizada de Arch Linux',
+    keySkills: [
+      'Linux',
+      'Bash',
+      'Arch Linux',
+      'Automatizacion'
+    ],
+    image: 'img-sdr-01'
+  },
+  {
+    id: 'p-sdr-22-01',
+    category: 'projects',
+    title: 'Simulador de robots',
+    initDate: '2022',
+    description: 'Simulador que muestra el comportamiento mecanico de robots en un entorno tridimensional',
+    keySkills: [
+      'Robotica',
+      'Python',
+      'NumPy',
+      'MatPlotLib',
+      'Ingenieria'
+    ],
+    image: 'img-sdr-01'
+  },
+  {
     id: 'j-aam-23092403-01',
     category: 'jobs',
     title: 'Aspirante a maquinista',
@@ -57,34 +86,5 @@ export const ALL_EXPERIENCE = [
       'Robotica'
     ],
     icon: 'icon-ship-fill'
-  },
-  {
-    id: 'p-iadal-23-01',
-    category: 'projects',
-    title: 'Instalador automatizado de Arch Linux',
-    initDate: '2023',
-    description: 'Script en Bash que permite la instalacion automatizada de Arch Linux',
-    keySkills: [
-      'Linux',
-      'Bash',
-      'Arch Linux',
-      'Automatizacion'
-    ],
-    image: 'img-sdr-01'
-  },
-  {
-    id: 'p-sdr-22-01',
-    category: 'projects',
-    title: 'Simulador de robots',
-    initDate: '2022',
-    description: 'Simulador que muestra el comportamiento mecanico de robots en un entorno tridimensional',
-    keySkills: [
-      'Robotica',
-      'Python',
-      'NumPy',
-      'MatPlotLib',
-      'Ingenieria'
-    ],
-    image: 'img-sdr-01'
   }
 ]

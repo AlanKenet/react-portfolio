@@ -11,7 +11,7 @@ const categories = getCategories()
 const titles = categories.map(category => category.charAt(0).toUpperCase() + category.slice(1))
 
 export function Experience () {
-  const [experience, setExperience] = useState(updateExperience(categories[1]))
+  const [experience, setExperience] = useState(updateExperience(categories[0]))
 
   const handleClick = (category) => {
     setExperience(

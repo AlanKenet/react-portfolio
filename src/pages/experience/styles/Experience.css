@@ -6,36 +6,43 @@
 }
 
 .experience-header{
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 1.5rem;
 }
 
 .experience-header h1{
-    display: grid;
-    grid-template-columns: 2fr 1fr 3fr 1fr 2fr;
-    grid-template-rows: 1fr;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     font-weight: 600;
     font-family: 'Montserrat';
 }
 
-.experience-header h1 div{
-    display: flex;
+.current-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--shadow);
+    transition: all 0.1s;
+}
+
+.title{
+    font-size: 1.25rem;
+    color: var(--neutro);
+    transition: all 0.2s;
 }
 
 .title-0 {
     grid-column: 1;
-    justify-content: end;
-    align-items: end;
+    text-align: end;
     font-size: 1.25rem;
     color: var(--neutro);
 }
 
 .title-1 {
     grid-column: 3;
-    justify-content: center;
     font-size: 2rem;
     font-weight: 700;
     color: var(--shadow);
@@ -43,8 +50,7 @@
 
 .title-2 {
     grid-column: 5;
-    justify-content: start;
-    align-items: end;
+    text-align: start;
     font-size: 1.25rem;
     color: var(--neutro);
 }
