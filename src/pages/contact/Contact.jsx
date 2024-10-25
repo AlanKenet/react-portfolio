@@ -7,9 +7,12 @@ export function Contact () {
       <header className='contact-header'>
         <h1 className='page-title'>Contact Me</h1>
       </header>
-      <main>
+      <div>
         <ContactForm />
-      </main>
+        <section>
+          Aqui va la descripcion y despedida
+        </section>
+      </div>
     </section>
   )
 }

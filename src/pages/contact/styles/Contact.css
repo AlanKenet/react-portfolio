@@ -1,9 +1,8 @@
 .contact-section{
+    padding: 1.5rem 0;
     display: flex;
     flex-direction: column;
-    max-height: calc(100dvh - 4rem);
     gap: 1.5rem;
-    padding: 4rem;
 }
 
 .contact-header{
@@ -11,4 +10,111 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+}
+
+.contact-section div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contact-section section{
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-section form{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 0.75rem;
+    background-color: var(--white-pure);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.075), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.contact-section form fieldset{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border: none;
+}
+
+.contact-section form fieldset:has(textarea){
+    height: 100%;
+}
+
+.contact-section label{
+    font-family: 'Montserrat';
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.contact-section input{
+    padding: 0.5rem 0.75rem;
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+    font-family: 'Sono';
+    font-size: 0.875rem;
+    font-weight: 300;
+    outline: none;
+}
+
+.contact-section input:hover{
+    border-color: var(--light);
+}
+
+.contact-section input:focus{
+    border-color: var(--light);
+    box-shadow: 0 0 4px var(--light);
+}
+
+.contact-section textarea{
+    max-width: 100%;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+    font-family: 'Sono';
+    font-size: 0.875rem;
+    font-weight: 400;
+    resize: none;
+    outline: none;
+    transition: height 0.5s;
+}
+
+.contact-section textarea:is(.long-true){
+    height: 292px;
+}
+
+.contact-section textarea:hover{
+    border-color: var(--light);
+}
+
+.contact-section textarea:focus{
+    border-color: var(--light);
+    box-shadow: 0 0 4px var(--light);
+}
+
+.contact-section form button{
+    padding: 0.5rem 3.5rem;
+    justify-self: center;
+    border-radius: 10rem;
+    border: none;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.075), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    font-size: 1.125rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: var(--black);
+    background-color: darksalmon;
 }

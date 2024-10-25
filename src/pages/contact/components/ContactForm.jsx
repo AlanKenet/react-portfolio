@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 export function ContactForm () {
   const [values, setValues] = useState({
@@ -19,11 +19,9 @@ export function ContactForm () {
     setValues(newValues)
   }
 
-  useEffect(() => console.log(values), [values])
-
   return (
     <form action='submit' name='contact'>
-      <div>
+      <fieldset>
         <label htmlFor='name'>Your Name:</label>
         <input
           type='text'
@@ -32,8 +30,8 @@ export function ContactForm () {
           value={values.name}
           onChange={handleChange}
         />
-      </div>
-      <div>
+      </fieldset>
+      <fieldset>
         <label htmlFor='email'>Your E-mail:</label>
         <input
           type='email'
@@ -42,17 +40,17 @@ export function ContactForm () {
           value={values.email}
           onChange={handleChange}
         />
-      </div>
-      <div>
+      </fieldset>
+      <fieldset>
         <label htmlFor='message'>Your Message:</label>
-        <input
-          type='text'
+        <textarea
           name='message'
           id='message'
           value={values.message}
           onChange={handleChange}
+
         />
-      </div>
+      </fieldset>
       <button type='button'>Submit</button>
     </form>
   )
